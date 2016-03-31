@@ -1,3 +1,7 @@
+body {
+ font-family: 'Roboto', sans-serif;
+}
+
 html {
   box-sizing: border-box;
 }
@@ -11,14 +15,12 @@ html {
 }
 
 .top-navigation > .content {
-	width: 970px;
 	height: 78px;
-	margin: 0 auto;
+    padding: 0px 15px;
 }
 
 .top-navigation .links {
     float: right;
-    font-family: 'Roboto', sans-serif;
     color: #838994;
     letter-spacing: 0.03em;
     font-size: 16px;
@@ -44,4 +46,47 @@ html {
     background-repeat: no-repeat;
     background-size: cover;
     height: 45.938rem;
+    text-align: center;
+    overflow: auto;
 }
+
+.content {
+    color: white;
+    width: 970px;
+    margin: 0 auto;
+}
+
+.introduction h1 {
+    margin-top: 17.5rem;
+    font-weight: 300;
+    font-size: 3.125rem;
+    margin-bottom: 0;
+}
+
+.introduction h3 {
+   font-weight: 300;
+   font-size: 1.563rem;
+   margin-top: 1.25rem;
+}
+
+button {
+    text-shadow: none;
+    border-style: none;
+    border-radius: 4px;
+    padding: 1rem 1.5rem;
+    background-color: #f15a29;
+    border-color: #f15a29;
+    width: 9.688rem;
+    color: white;
+    font-size: 1.125rem;
+    margin:0 auto;
+    margin-top: 3px;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: #d9400e;
+    border-color: #cf3d0e;
+}
+
+
